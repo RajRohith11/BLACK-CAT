@@ -1,88 +1,45 @@
 *{
-    padding: 0;
-    margin: 0;
+    padding: 0px;
+    margin: 0px;
+}
+.nav{
+    /* background-color: aqua; */
+    height: 50px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+
 }
 body{
-  background-image: url(./imges/back.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;   
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 95vh;
+    background-color: #f2f9ff;
 }
-
-.sub{
-    padding-bottom: 20px;
-    width: 500px;
-    background-color: whitesmoke;
-    opacity: 0.7;
-    border-radius: 10px;
-    /* margin-top: 150px;
-    margin-left: 35%; */
-    box-shadow: 0 0 50px rgb(97,149,245);
-    
-}
-.sing{
-    padding: 20px 0;
-    text-align: center;
-}
-.fn{
-    width: 70%;
+.home{
+    width: 100px;
     height: 30px;
-    border: 1px solid lightslategray;
-    border-radius: 5px;
+    background-color: white;
+    border: none;
 }
-.ln{
-    width: 70%;
-    height: 30px;
-    border: 1px solid lightslategray;
-    border-radius: 5px;
-    margin-top: 5px;
-}
-.em{
-    width: 70%;
-    height: 30px;
-    border: 1px solid lightslategray;
-    border-radius: 5px;
-    margin-top: 5px;
-}
-.ps{
-    width: 70%;
-    height: 30px;
-    border: 1px solid lightslategray;
-    border-radius: 5px;
-    margin-top: 5px;
-}
-.su{
-    width: 70%;
-    height: 30px;
-    border: 1px solid lightslategray;
-    border-radius: 5px;
-    margin-top: 15px;
-}
-.in{
-    text-decoration: none;
-    color:  rgb(98, 81, 250);
-}
-.log{
-    margin-top: 20px;
-}
-.su:hover{
+.home:hover{
     cursor: pointer;
 }
-@media screen and (max-width:750px) {
-    .sub{
-        width: 300px;
-        background-color: whitesmoke;
-        opacity: 0.7;
-        border-radius: 10px;
-        /* margin-top: 150px;
-        margin-left: 35%; */
-        box-shadow: 0 0 50px rgb(97,149,245);
-        
-    }
+.one{
+    background-color:#10375C;
+    height: 25px;
+    color: white;
+    padding-top: 5px;
+    padding-left: 5px;
 }
+.home1{
+    border-radius: 10px;
+    border: solid black 1px;
+    height: 30px;
+    margin-right: 15px;
 
-
+}
+.a{
+    text-decoration: none;
+    color: white;
+    margin-left: 13.5px;
+}
 
