@@ -51,6 +51,7 @@ body {
     border: none;
 
 }
+
 @media screen  and (max-width:720px){
     
     .main{
@@ -59,14 +60,18 @@ body {
         display: flex;
         justify-content: center;
         align-items: center;
-        border-bottom-right-radius: 200px;
+        border-bottom-right-radius: 100px;
     }
     .serch{
-        width: 100px;
+        width: 150px;
         height: 40px;
         border-radius: 15px;
         border: none;
     
+    }
+    .h1{
+        font-size: large;
+        font-weight: bold;
     }
 
 }
