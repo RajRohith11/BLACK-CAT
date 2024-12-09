@@ -55,18 +55,18 @@ body {
     
     .main{
         background-color: #10375C;
-        height: 45vh;
+        height: 40vh;
         display: flex;
         justify-content: center;
         align-items: center;
         border-bottom-right-radius: 200px;
     }
     .serch{
-        width: 150px;
+        width: 100px;
         height: 40px;
         border-radius: 15px;
         border: none;
     
     }
-    
+
 }
