@@ -137,8 +137,33 @@ a{
     color: white;
 }
 
-
-
+.div-four{
+    background-color: #89A8B2;
+}
+#c1{
+    background-color: #F3F3E0;
+    padding: 10px;
+    border-radius: 15px;
+    color: black;
+}
+#c2{
+    background-color: #3B1E54;
+    padding: 10px;
+    border-radius: 15px;
+    color: white;
+}
+#c3{
+    background-color: #3ABEF9;
+    padding: 10px;
+    border-radius: 15px;
+    color: white;
+}
+#c4{
+    background-color: #507587;
+    padding: 10px;
+    border-radius: 15px;
+    color: white;
+}
 
 
 @media screen  and (max-width:720px){
