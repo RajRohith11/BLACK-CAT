@@ -135,6 +135,9 @@ a{
         font-size: large;
         font-weight: bold;
     }
+    .div-two{
+        padding-top: 20px;
+    }
   
 
 }
@@ -147,7 +150,8 @@ a{
         flex-direction: column;
         gap: 20px;
         text-align: center;
-        padding-top: 40vh;
+        padding-top: 55vh;
+
       
     }   
 }
