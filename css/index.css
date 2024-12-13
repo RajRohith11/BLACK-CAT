@@ -7,7 +7,7 @@
 
 
 body {
-    background-color:#EED3B1;
+    background-color: #EED3B1;
 }
 
 
@@ -29,7 +29,8 @@ body {
     width: 0;
     height: 0;
 }
-.main{
+
+.main {
     background-color: #10375C;
     height: 70vh;
     display: flex;
@@ -37,25 +38,29 @@ body {
     align-items: center;
     border-bottom-right-radius: 200px;
 }
-.sub{
+
+.sub {
     color: white;
     display: flex;
     flex-direction: column;
     gap: 10px;
     text-align: center;
 }
-.serch{
+
+.serch {
     width: 450px;
     height: 40px;
     border-radius: 15px;
     border: none;
 
 }
-.main input{
+
+.main input {
     border: none;
     outline: none;
 }
-.div-two{
+
+.div-two {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -63,139 +68,211 @@ body {
     gap: 20px;
     text-align: center;
 
-  
+
 }
-.div-two-html{
+
+.div-two-html {
     display: flex;
     flex-direction: column;
     gap: 20px;
     padding-top: 50px;
-    
+
 }
-.div-two-a{
+
+.div-two-a {
     display: flex;
     flex-direction: column;
     gap: 20px;
-  padding-bottom: 50px;
+    padding-bottom: 50px;
 
 }
-a{
+
+a {
     text-decoration: none;
 }
-#a1{
+
+#a1 {
     background-color: #FCFFC1;
     padding-left: 50px;
     padding-right: 50px;
     padding: 10px;
     border-radius: 15px;
     color: black;
-   
+
 }
-#a2{
+
+#a2 {
     background-color: #F0BB78;
     padding: 10px;
     border-radius: 15px;
     color: white;
 }
-#a3{
+
+#a3 {
     background-color: #543A14;
     padding: 10px;
     border-radius: 15px;
     color: white;
 }
-#a4{
+
+#a4 {
     background-color: #1A1A19;
     padding: 10px;
     border-radius: 15px;
     color: white;
 }
-.three{
+
+.three {
     background-color: #E5E1DA;
 }
-#b1{
+
+#b1 {
     background-color: #A59D84;
     padding: 10px;
     border-radius: 15px;
     color: black;
 }
-#b2{
+
+#b2 {
     background-color: #EED3B1;
     padding: 10px;
     border-radius: 15px;
     color: black;
 }
-#b3{
+
+#b3 {
     background-color: #CA7373;
     padding: 10px;
     border-radius: 15px;
     color: white;
 }
-#b4{
+
+#b4 {
     background-color: #640D5F;
     padding: 10px;
     border-radius: 15px;
     color: white;
 }
 
-.div-four{
+.div-four {
     background-color: #89A8B2;
 }
-#c1{
+
+#c1 {
     background-color: #F3F3E0;
     padding: 10px;
     border-radius: 15px;
     color: black;
 }
-#c2{
+
+#c2 {
     background-color: #3B1E54;
     padding: 10px;
     border-radius: 15px;
     color: white;
 }
-#c3{
+
+#c3 {
     background-color: #3ABEF9;
     padding: 10px;
     border-radius: 15px;
     color: white;
 }
-#c4{
+
+#c4 {
     background-color: #507587;
     padding: 10px;
     border-radius: 15px;
     color: white;
 }
-.div-five{
+
+.div-five {
     background-color: white;
 }
-#d1{
+
+#d1 {
     background-color: #8D0B41;
     padding: 10px;
     border-radius: 15px;
     color: white;
 }
-#d2{
+
+#d2 {
     background-color: #D39D55;
     padding: 10px;
     border-radius: 15px;
     color: white;
 }
-#d3{
+
+#d3 {
     background-color: #659287;
     padding: 10px;
     border-radius: 15px;
     color: white;
 }
-#d4{
+
+#d4 {
     background-color: #FF6500;
     padding: 10px;
     border-radius: 15px;
     color: white;
+
+}
+.flex-space{
+    height: 150vh;
+    background-color: #1A1A19;
+    display: flex;
+    gap: 10px;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    width: 100%;
+    flex-wrap: wrap;
+
+}
+.div-flexcard{
+    width: 40%;
+    height: 40vh;
+    border-radius: 10px;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    
     
 }
+#fc1{
+    background-color: #ECDFCC;
+}
+#fca1{
+    background-color: #1A1A19;
+    padding: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: white;
+    border-radius: 5px;
+}
+#fc2{
+    background-color: #89A8B2;
+}
+#fc3{
+    background-color: #89A8B2;
+}
+#fc4{
+    background-color: #756AB6;
+}
+#fc5{
+    background-color: #AE445A;
+}
+#fc6{
+    background-color: #522258;
+}
 
-@media screen  and (max-width:720px){
-    
-    .main{
+
+@media screen and (max-width:720px) {
+
+    .main {
         background-color: #10375C;
         height: 40vh;
         display: flex;
@@ -203,19 +280,25 @@ a{
         align-items: center;
         border-bottom-right-radius: 100px;
     }
-    .serch{
+
+    .serch {
         width: 250px;
         height: 30px;
         border-radius: 15px;
         border: none;
-    
+
     }
-    .h1{
+
+    .h1 {
         font-size: large;
         font-weight: bold;
     }
-    
+    .div-flexcard{
+        width: 80%;
+        height: 40vh;
+        background-color: #10375C;
+        
+    }
   
 
 }
-
