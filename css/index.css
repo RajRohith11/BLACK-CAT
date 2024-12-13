@@ -55,31 +55,6 @@ body {
     border: none;
     outline: none;
 }
-
-
-@media screen  and (max-width:720px){
-    
-    .main{
-        background-color: #10375C;
-        height: 40vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        border-bottom-right-radius: 100px;
-    }
-    .serch{
-        width: 250px;
-        height: 30px;
-        border-radius: 15px;
-        border: none;
-    
-    }
-    .h1{
-        font-size: large;
-        font-weight: bold;
-    }
-
-}
 .div-two{
     display: flex;
     justify-content: center;
@@ -88,19 +63,20 @@ body {
     flex-direction: column;
     gap: 20px;
     text-align: center;
-    padding-top: 50px;
+  
 }
 .div-two-html{
     display: flex;
     flex-direction: column;
     gap: 20px;
+    padding-top: 50px;
     
 }
 .div-two-a{
     display: flex;
     flex-direction: column;
     gap: 20px;
-  
+  padding-bottom: 20px;
 
 }
 a{
@@ -135,3 +111,43 @@ a{
 }
 
 
+
+
+
+@media screen  and (max-width:720px){
+    
+    .main{
+        background-color: #10375C;
+        height: 40vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-bottom-right-radius: 100px;
+    }
+    .serch{
+        width: 250px;
+        height: 30px;
+        border-radius: 15px;
+        border: none;
+    
+    }
+    .h1{
+        font-size: large;
+        font-weight: bold;
+    }
+  
+
+}
+@media screen and (max-height :400px) {
+    .div-two{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 70vh;
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+        padding-top: 40vh;
+      
+    }   
+}
