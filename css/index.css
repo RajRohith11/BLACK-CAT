@@ -221,13 +221,12 @@ a {
 .flex-space{
     background-color: #1A1A19;
     display: flex;
-    height: 300vh;
     gap: 10px;
     justify-content: space-evenly;
     padding-top: 20px;
     width: 100%;
     flex-wrap: wrap;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
 
 
 }
