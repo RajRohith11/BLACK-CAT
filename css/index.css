@@ -59,10 +59,10 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 70vh;
     flex-direction: column;
     gap: 20px;
     text-align: center;
+
   
 }
 .div-two-html{
@@ -135,9 +135,7 @@ a{
         font-size: large;
         font-weight: bold;
     }
-    .div-two{
-        padding-top: 20px;
-    }
+    
   
 
 }
