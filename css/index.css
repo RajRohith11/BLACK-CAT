@@ -164,7 +164,33 @@ a{
     border-radius: 15px;
     color: white;
 }
-
+.div-five{
+    background-color: white;
+}
+#d1{
+    background-color: #8D0B41;
+    padding: 10px;
+    border-radius: 15px;
+    color: white;
+}
+#d2{
+    background-color: #D39D55;
+    padding: 10px;
+    border-radius: 15px;
+    color: white;
+}
+#d3{
+    background-color: #659287;
+    padding: 10px;
+    border-radius: 15px;
+    color: white;
+}
+#d4{
+    background-color: #FF6500;
+    padding: 10px;
+    border-radius: 15px;
+    color: white;
+}
 
 @media screen  and (max-width:720px){
     
