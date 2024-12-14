@@ -227,6 +227,7 @@ a {
     width: 100%;
     flex-wrap: wrap;
     padding-bottom: 30px;
+    
 
 
 }
@@ -239,9 +240,6 @@ a {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    
-    
-    
 }
 #fc1{
     background-color: #ECDFCC;
@@ -254,11 +252,14 @@ a {
     color: white;
     border-radius: 5px;
 }
+.div-spaceone{
+
+}
 #fc2{
     background-color: #89A8B2;
 }
 #fc3{
-    background-color: #89A8B2;
+    background-color: #FFF5D7;
 }
 #fc4{
     background-color: #756AB6;
@@ -269,6 +270,46 @@ a {
 #fc6{
     background-color: #522258;
 }
+.div-flexcardfour{
+    height: 20vh;
+    width: 24%;
+    background-color: white;
+    margin-top: 20px;
+
+}
+.div-flexcardfour a{
+    color:#1A1A19 ;
+}
+
+.div-flexcard-two{
+    width: 20%;
+    height: 20vh;
+    background-color: white;
+
+}
+.div-flexcard-two a{
+    color: #1A1A19;
+}
+.div-flexcard-one{
+    width: 40%;
+    height: 20vh;
+    background-color: white;
+}
+.div-flexcard-one a{
+    color: #1A1A19;
+}
+.div-spaceone{
+    background-color: #1A1A19;
+    display: flex;
+    gap: 50px;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    width: 100%;
+    flex-wrap: wrap;
+    padding-bottom: 30px;
+
+}
+
 
 
 @media screen and (max-width:720px) {
@@ -297,9 +338,17 @@ a {
     .div-flexcard{
         width: 80%;
         height: 40vh;
-        background-color: #10375C;
         
     }
-  
+    .div-flexcard-two{
+        width: 80%;
+        height: 20vh;
+        
+    }
+    .div-flexcard-one{
+        width: 80%;
+        height: 20vh;
+        
+    }
 
 }
