@@ -384,7 +384,7 @@ a {
     }
     .div-flexcard-one{
         width: 80%;
-        height: 20vh;
+        
         
     }
     .div-third-main .div-box1{
@@ -402,6 +402,9 @@ a {
     gap: 20px;
     padding-top: 10px;
     padding-bottom: 20px;
+   }
+   .div-exex a{
+        font-size: 25px;
    }
    
     
