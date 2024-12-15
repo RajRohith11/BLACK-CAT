@@ -309,42 +309,43 @@ a {
     padding-bottom: 30px;
 
 }
-.div-third-main{
+.div-exex{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.div-exex1{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+    flex-wrap: wrap;
     padding-bottom: 20px;
-    background-color: #FFF5D7;
-   display: flex;
-   flex-direction: column;
-   gap: 50px;
-   padding-top: 40px;
 }
-.div-third-main-box1{
-    background-color: white;
-    color: #1A1A19;
-    height: 20vh;
+.div-ex{
     width: 40%;
+    height: 20vh;
+    background-color: #1A1A19;
+    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 10px;
+}
+.div-ex a{
+    color: white;
+}
 
-}
-.div-third-main-box2{
-    background-color: white;
-    color: #1A1A19;
-    height: 20vh;
-    width: 40%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.div-box1{
-    display: flex;
-    justify-content: center;
-}
-.div-box2{
-    display: flex;
-    justify-content: center;
-    gap: 90px;
-}
+
+
+
+
+
+
+
 
 
 
@@ -392,7 +393,16 @@ a {
         justify-content: center;
     }
   
-   
+   .div-ex{
+    width: 90%;
+    height: 15vh;
+   }
+   .div-exex1{
+    display: flex;
+    gap: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+   }
    
     
 }
