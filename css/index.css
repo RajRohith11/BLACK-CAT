@@ -386,5 +386,13 @@ a {
         height: 20vh;
         
     }
-
+    .div-third-main .div-box1{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+  
+   
+   
+    
 }
