@@ -349,7 +349,7 @@ a {
 
 
 
-@media screen and (max-width:780px) {
+@media screen and (max-width:1000px) {
 
     .main {
         background-color: #10375C;
@@ -407,7 +407,7 @@ a {
     font-size: 25px;
    }
    .div-exex a{
-    font-size: 25px;
+    font-size: 20px;
    }
    
     
