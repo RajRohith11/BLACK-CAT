@@ -309,6 +309,42 @@ a {
     padding-bottom: 30px;
 
 }
+.div-third-main{
+    padding-bottom: 20px;
+    background-color: #FFF5D7;
+   display: flex;
+   flex-direction: column;
+   gap: 50px;
+   padding-top: 40px;
+}
+.div-third-main-box1{
+    background-color: white;
+    color: #1A1A19;
+    height: 20vh;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.div-third-main-box2{
+    background-color: white;
+    color: #1A1A19;
+    height: 20vh;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div-box1{
+    display: flex;
+    justify-content: center;
+}
+.div-box2{
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+}
 
 
 
