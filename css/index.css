@@ -349,7 +349,7 @@ a {
 
 
 
-@media screen and (max-width:780px) {
+@media screen and (max-width:720px) {
 
     .main {
         background-color: #10375C;
@@ -384,7 +384,7 @@ a {
     }
     .div-flexcard-one{
         width: 80%;
-        
+        height: 20vh;
         
     }
     .div-third-main .div-box1{
@@ -403,8 +403,8 @@ a {
     padding-top: 10px;
     padding-bottom: 20px;
    }
-   .div-exex a{
-        font-size: 25px;
+   .div-spaceone a{
+    font-size: 25px;
    }
    
     
