@@ -338,6 +338,31 @@ a {
 .div-ex a{
     color: white;
 }
+.final-div-for-crdits-main{
+    height: 70vh;
+    background-color: #0A1D36;
+    color: #FABC3F;
+    display: flex;
+    
+    padding-top: 50px;
+    padding-right: 20%;
+    flex-direction: column;
+    align-items: center;
+}
+.crds1{
+    display: flex;
+    gap: 50px;
+    padding-bottom: 20px;
+}
+.crds1 a{
+    color: #FABC3F;
+    font-size: 20px;
+    
+}
+.crds2{
+ 
+    gap: 10px;
+}
 
 
 
