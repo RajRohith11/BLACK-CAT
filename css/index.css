@@ -488,15 +488,15 @@ a {
     align-items: center;
     gap: 20px;
     justify-content: center;
-    padding-left: 50px;
+    padding-left: 60px;
 }
 .def{
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 50px;
     align-items: center;
-    text-align: center; 
-    padding: 0;
+    text-align: center;
+    padding-right: 70px;
 }
     .cat img{
         height: auto;
