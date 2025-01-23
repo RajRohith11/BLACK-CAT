@@ -403,7 +403,7 @@ a {
     display: grid;
     justify-content: center;
     text-align: center;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
     color: white;
     font-family: Stencil Std, fantasy;
     font-weight: 1000;
@@ -488,7 +488,11 @@ a {
     align-items: center;
     gap: 20px;
     justify-content: center;
-    padding-left: 60px;
+    padding-left: 50px;
+    text-align: center;
+}
+.crds1{
+    font-size: 50px;
 }
 .def{
     display: flex;
@@ -496,7 +500,7 @@ a {
     gap: 50px;
     align-items: center;
     text-align: center;
-    padding-right: 70px;
+    padding-left: 50px;
 }
     .cat img{
         height: auto;
