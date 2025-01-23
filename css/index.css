@@ -339,7 +339,6 @@ a {
     color: white;
 }
 .final-div-for-crdits-main{
-    height: 70vh;
     background-color: #0A1D36;
     color: #FABC3F;
     display: flex;
@@ -348,10 +347,11 @@ a {
     padding-right: 20%;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 20px;
 }
 .crds1{
     display: flex;
-    gap: 50px;
+    gap: 100px;
     padding-bottom: 20px;
 }
 .crds1 a{
@@ -359,10 +359,58 @@ a {
     font-size: 20px;
     
 }
-.crds2{
- 
-    gap: 10px;
+
+.crds3{
+    font-size: 20px;
+    display: grid;
+    padding-top: 40px;
+    gap: 5px;
 }
+.crds3 a{
+    color: white;
+    
+    font-size: 15px;
+}
+.crds3 #tt{
+    font-size: 25px;
+    padding-bottom: 10px;
+   color: wheat;
+}
+.def{
+    display: flex;
+    gap: 120px;
+    padding-left: 160px;
+    justify-content: center;
+
+}
+.mainfinal{
+    display: flex;
+    justify-content: center;
+    background-color: #0A1D36;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.finall{
+    width: 60%;
+}
+.mainfinal h3{
+    padding-bottom: 5px;
+    color: #FABC3F;
+}
+.cat{
+    background-color: #0A1D36;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 20px;
+    color: white;
+    font-family: Stencil Std, fantasy;
+    font-weight: 1000;
+    font-size: 40px;
+}
+
+
 
 
 
