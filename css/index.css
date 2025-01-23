@@ -494,9 +494,9 @@ a {
     display: flex;
     flex-direction: column;
     gap: 30px;
-   
     align-items: center;
-    text-align: center;
+    text-align: center; 
+    padding: 0;
 }
     .cat img{
         height: auto;
@@ -508,7 +508,10 @@ a {
         align-items: center;
         
     }
-
+    .finall p{
+        text-align: center;
+    }
+  
    
     
 }
