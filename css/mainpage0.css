@@ -49,3 +49,8 @@ body{
     padding-right: 2px;
     opacity: 0.8;
 }
+@media screen and (max-width:800px){
+    .scb{
+        display: none;
+    }
+}
