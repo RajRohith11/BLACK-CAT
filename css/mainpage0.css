@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: whitesmoke;
+}
+.slider{
+    display: flex;
+    gap: 20px;
+    white-space: nowrap;
+    overflow: scroll;
+    scroll-behavior: smooth;
+    background-color: black;
+    height: 30px;
+    align-items: center;
+}
+.slider a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+#html{
+    margin-left: 25px;
+}
+#last{
+    margin-right: 25px;
+}
+
+.slider::-webkit-scrollbar{
+    width: 0;
+    height: 0;
+}
+.scb{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    position: absolute;
+    padding-top: 1px;
+    z-index: 1;
+}
+.bck{
+    padding: 2px;
+    padding-right: 2px;
+    opacity: 0.8;
+}
+.fck{
+    padding: 2px;
+    padding-right: 2px;
+    opacity: 0.8;
+}
