@@ -49,6 +49,59 @@ body{
     padding-right: 2px;
     opacity: 0.8;
 }
+
+aside{
+    height: 95vh;
+    overflow-y: scroll;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+}
+
+aside ul li{
+    font-size: 18px;
+    width: 100%;
+    
+    background-color: rgb(250, 247, 247);
+   
+    padding-left: 9px;
+    
+}
+#fun{
+    display: flex;
+    justify-content: center;
+}
+aside ul li:hover{
+    background-color: rgb(139, 138, 138);
+}
+aside ul li a {
+    color: black;
+    
+
+}
+.list{
+    padding-left: 10px;
+}
+#one{
+    font-size: 10px;
+}
+.left{
+    padding-left: 300px;
+    width: 80%;
+}
+.nav-button-top{
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.bfbn{
+    padding: 11px;
+    background-color: rgb(13, 156, 13);
+    color: white;
+    border-radius: 5px;
+}
+
+
 @media screen and (max-width:800px){
     .scb{
         display: none;
