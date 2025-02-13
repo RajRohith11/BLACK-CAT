@@ -15,6 +15,11 @@ body{
     background-color: black;
     height: 30px;
     align-items: center;
+    
+}
+.slider{
+    position: sticky;
+    top: 0;
 }
 .slider a{
     color: whitesmoke;
@@ -35,9 +40,10 @@ body{
     display: flex;
     width: 100%;
     justify-content: space-between;
-    position: absolute;
+    position: relative;
     padding-top: 1px;
-    z-index: 1;
+    z-index: 10;
+    background-color: black;
 }
 .bck{
     padding: 2px;
@@ -88,6 +94,7 @@ aside ul li a {
 .left{
     padding-left: 300px;
     width: 80%;
+    
 }
 .nav-button-top{
     padding-top: 40px;
@@ -99,6 +106,48 @@ aside ul li a {
     background-color: rgb(13, 156, 13);
     color: white;
     border-radius: 5px;
+}
+.blue-box{
+    background-color: rgb(212, 236, 236);
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+.blue-box p{
+    font-size: 18px;
+}
+.blue-box-con{
+    padding-top: 25px;
+}
+#blue-box-icon{
+    font-size: 10px;
+}
+#lhm{
+    background-color:rgb(13, 156, 13);
+    padding: 10px;
+    color: whitesmoke;
+    border-radius: 8px;
+    width: 25%;
+    
+}
+.html1{
+    height: 5vh;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 10px;
+}
+.html1 p{
+    font-size: 15px;
+}
+.exam2{
+    padding-top: 10px;
+    background-color: aquamarine;
+    padding-top: 20px;
 }
 
 
