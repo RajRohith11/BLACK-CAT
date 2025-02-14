@@ -5,6 +5,7 @@
 }
 body{
     background-color: whitesmoke;
+    height: 200vh;
 }
 .slider{
     display: flex;
@@ -187,6 +188,19 @@ aside ul li a {
     width: max-content;
     border-radius: 5px;
 
+}
+.examples{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-bottom: 10px;
+}
+#html-ex{
+    padding: 5px;
+    background-color: lightslategray;
+    color: whitesmoke;
+    width: 20%;
+    padding-left: 10px;
 }
 
 
