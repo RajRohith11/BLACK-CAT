@@ -202,9 +202,6 @@ aside ul li a {
     width: 20%;
     padding-left: 10px;
 }
-
-
-
 @media screen and (max-width:800px){
     .scb{
         display: none;
