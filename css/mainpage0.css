@@ -15,11 +15,13 @@ body{
     background-color: black;
     height: 30px;
     align-items: center;
+    z-index: 1;
     
 }
 .slider{
     position: sticky;
-    top: 0;
+    top: 0px;
+    
 }
 .slider a{
     color: whitesmoke;
@@ -58,11 +60,14 @@ body{
 }
 
 aside{
-    height: 95vh;
+    height: 91vh;
     overflow-y: scroll;
     width: 250px;
     position: fixed;
     z-index: 1;
+}
+aside::-webkit-scrollbar{
+
 }
 
 aside ul li{
@@ -116,6 +121,7 @@ aside ul li a {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    padding-bottom: 15px;
     
 }
 .blue-box p{
@@ -141,6 +147,7 @@ aside ul li a {
     flex-direction: column;
     gap: 10px;
     padding-top: 10px;
+    padding-bottom: 50px;
 }
 .html1 p{
     font-size: 15px;
@@ -149,7 +156,39 @@ aside ul li a {
     padding-top: 10px;
     background-color: aquamarine;
     padding-top: 20px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
+.exam-box{
+    background-color: white;
+    border-left: solid green;
+    width: 96%;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+.Layout{
+    color: red;
+}
+.black{
+    color: black;
+}
+.blue-box-butn{
+    padding-top: 15px;
+}
+#click{
+    padding: 10px;
+    background-color: rgb(13, 156, 13);
+    color: whitesmoke;
+    width: max-content;
+    border-radius: 5px;
+
+}
+
 
 
 @media screen and (max-width:800px){
