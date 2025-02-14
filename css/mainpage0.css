@@ -123,6 +123,7 @@ aside ul li a {
     flex-direction: column;
     gap: 10px;
     padding-bottom: 15px;
+    padding-right: 15px;
     
 }
 .blue-box p{
@@ -202,6 +203,13 @@ aside ul li a {
     width: 20%;
     padding-left: 10px;
 }
+#menu-bar{
+    padding: 5px;
+    color: whitesmoke;
+}
+#menu-bar-btn{
+    background-color: black;
+}
 @media screen and (max-width:800px){
     .scb{
         display: none;
@@ -213,4 +221,45 @@ aside ul li a {
     #next{
         display: none;
     }
+    .aside{
+        display: none;
+    }
+    .left{
+        display: flex;
+     align-items: center;
+     flex-direction: column;
+     width: 100%;
+     padding-left: 0;
+        
+    }
+    .nav-button-top{
+        padding-top: 40px;
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+    }
+    #bfbn{
+        margin-right: 150px;
+    }
+    .blue-box p{
+        font-size: 14px;
+    }
+    #lhm{
+        background-color:rgb(13, 156, 13);
+        padding: 10px;
+        color: whitesmoke;
+        border-radius: 8px;
+        white-space: nowrap;
+        width: max-content;
+        
+    }
+    #html{
+        margin-left: 0px;
+    }
+    #menu-bat-btn{
+        border: none;
+    }
+   
+  
+
 }
