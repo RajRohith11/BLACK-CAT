@@ -92,8 +92,18 @@ aside ul li a {
     
 
 }
-.list{
-    padding-left: 10px;
+.listof{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    align-items:left ;
+    padding-left: 20px;
+    background-color: rgb(245, 248, 250);
+    text-decoration: none;
+}
+.listof a:hover{
+    background-color: rgb(146, 148, 150);
+    text-decoration: none;
 }
 #one{
     font-size: 10px;
@@ -107,6 +117,7 @@ aside ul li a {
     padding-top: 40px;
     display: flex;
     justify-content: space-between;
+    padding-bottom: 20px;
 }
 .bfbn{
     padding: 11px;
@@ -259,6 +270,30 @@ aside ul li a {
     #menu-bat-btn{
         border: none;
     }
+    .exam{
+        padding-left: 10px;
+    }
+    #try{
+        font-size: 19px;
+        font-weight: 600;
+    }
+   .exam2{
+    padding-top: 5px;
+   }
+   #thani{
+    font-size: 19px;
+    padding-left: 10px;
+   }
+   .examples{
+    padding-left: 10px;
+   }
+   #html-ex{
+    white-space: nowrap;
+    width: max-content;
+   }
+   #nfn{
+    margin-right: 350px;
+   }
    
   
 
