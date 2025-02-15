@@ -26,7 +26,12 @@ document.addEventListener('DOMContentLoaded',function(){
     const list = document.querySelectorAll(".aside");
     menu.addEventListener("click",function(){
        list.forEach(item =>{
-        item.style.display = 'block'
+        if(item.style.display === "block"){
+            item.style.display = "none";
+        }else{
+            item.style.display = 'block'
+        }
        });
+       
     });
 })

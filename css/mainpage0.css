@@ -66,6 +66,7 @@ aside{
     width: 250px;
     position: fixed;
     z-index: 1;
+    background-color: whitesmoke;
 }
 aside::-webkit-scrollbar{
 
@@ -83,6 +84,7 @@ aside ul li{
 #fun{
     display: flex;
     justify-content: center;
+    background-color: whitesmoke;
 }
 aside ul li:hover{
     background-color: rgb(139, 138, 138);
