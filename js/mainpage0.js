@@ -21,3 +21,12 @@ document.addEventListener("DOMContentLoaded",function(){
 
 
 });
+document.addEventListener('DOMContentLoaded',function(){
+    const menu = document.getElementById("menu-bar-btn");
+    const list = document.querySelectorAll(".aside");
+    menu.addEventListener("click",function(){
+       list.forEach(item =>{
+        item.style.display = 'block'
+       });
+    });
+})
