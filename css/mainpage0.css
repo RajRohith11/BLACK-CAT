@@ -68,9 +68,7 @@ aside{
     z-index: 1;
     background-color: whitesmoke;
 }
-aside::-webkit-scrollbar{
 
-}
 
 aside ul li{
     font-size: 18px;
