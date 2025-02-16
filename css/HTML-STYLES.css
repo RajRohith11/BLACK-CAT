@@ -28,11 +28,19 @@ body{
     color: whitesmoke;
     text-decoration: none;
 }
+.slider a:hover{
+    text-decoration: none;
+    color:gold;
+    scale: 1.1;
+}
 #html{
     margin-left: 25px;
 }
 #last{
     margin-right: 25px;
+}
+#menu-bar-btn{
+    display: none;
 }
 
 .slider::-webkit-scrollbar{
@@ -67,6 +75,7 @@ aside{
     position: fixed;
     z-index: 1;
     background-color: whitesmoke;
+    padding-bottom: 20px;
 }
 
 
@@ -102,9 +111,13 @@ aside ul li a {
     background-color: rgb(245, 248, 250);
     text-decoration: none;
 }
+.listof a{
+    color: black;
+}
 .listof a:hover{
     background-color: rgb(146, 148, 150);
     text-decoration: none;
+    color: black;
 }
 #one{
     font-size: 10px;
@@ -222,6 +235,9 @@ aside ul li a {
 #menu-bar-btn{
     background-color: black;
 }
+#green{
+    background-color: lightgreen;
+}
 @media screen and (max-width:800px){
     .scb{
         display: none;
@@ -294,6 +310,9 @@ aside ul li a {
    }
    #nfn{
     margin-right: 350px;
+   }
+   #menu-bar-btn{
+    display: block;
    }
    
   
